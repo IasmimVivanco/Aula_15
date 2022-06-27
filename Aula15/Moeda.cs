@@ -6,6 +6,7 @@ namespace Aula15
 {
     public class Moeda
     {
+
         public Moeda(string nome, decimal valor, CultureInfo regiao)
         {
             Nome = nome;

@@ -4,6 +4,7 @@ using System.Globalization;
 
 namespace Aula15
 {
+    // Classe Principal
     internal class Program
     {
         static void Main(string[] args)
@@ -11,6 +12,7 @@ namespace Aula15
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
             ConversorDeMoeda conversorDeMoeda = new ConversorDeMoeda();
+            // Chamando as Propriedade
             conversorDeMoeda.Apresentacao();
             conversorDeMoeda.Cadastrar();
             conversorDeMoeda.ConverterMoeda();
